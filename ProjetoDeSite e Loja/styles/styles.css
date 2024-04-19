@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 50px;
+}
+li{
+    display: inline-block;
+    margin: 20px 10px;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.10s all;
+}
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+h1{
+    font-weight: 200;
+    line-height: 25px;
+}
+main{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    margin-left: 50px;
+    gap: 10px;
+    align-items: center;
+}
+h2{
+    font-size: 56px;
+    line-height: 40px;
+    font-family: poppinsmedium;
+}
+span{
+    color: rgb(132, 14, 201);
+    
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+img{
+    margin-top: 50px;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+h3{
+    font-size: larger;
+    font-size: 50px;
+    text-align: center;
+    font-family: poppinslight;
+}
+section{
+    padding-top: 25px;
+    background-color: rgb(68, 65, 65);
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+/*Estilizar o conteiner pai*/
+#linha{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: o auto;
+}
+/*Estilizar cada div individualmente*/
+.curso{
+    width: calc(40% - 5px); /*40% da largura menos o espaçamento*/
+    padding: 10px;
+    background-color: rgb(132, 14, 201);
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+div img{
+    width: 70%;
+    border-radius: 10px;
+}
+button{
+    height: 45px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: poppinslight;
+    border-radius: 20px;
+    border-color: rgb(121, 121, 121);
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
